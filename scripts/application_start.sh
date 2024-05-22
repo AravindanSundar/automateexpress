@@ -1,5 +1,5 @@
 #!/bin/bash
-cd nodejs-express-app
+cd nodejs-aws-codedeploy-pipeline
 pm2 start app.js --name==nodejs-express-app
 echo 'run application_start.sh: ' >> /home/ec2-user/nodejs-aws-codedeploy-pipeline/deploy.log
 
